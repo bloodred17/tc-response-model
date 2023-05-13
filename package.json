@@ -1,12 +1,13 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "tc-response-model",
   "version": "0.0.0-development",
-  "description": "A template for creating npm packages using TypeScript and VSCode",
+  "description": "Response model used in Track Cargo",
   "main": "./lib/index.js",
   "files": [
     "lib/**/*"
   ],
   "scripts": {
+
     "build": "tsc --project tsconfig.build.json",
     "clean": "rm -rf ./lib/",
     "cm": "cz",
@@ -23,28 +24,24 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ryan Sonshine",
-    "email": "ryansonshine@users.noreply.github.com",
-    "url": "https://github.com/ryansonshine"
+    "name": "Ankur Dutta",
+    "email": "bloodred17@users.noreply.github.com",
+    "url": "https://github.com/bloodred17"
   },
   "engines": {
-    "node": ">=12.0"
+    "node": ">=16.0"
   },
   "keywords": [
-    "boilerplate",
-    "template",
+    "model",
     "typescript",
-    "vscode",
-    "jest",
-    "husky",
-    "commitizen",
-    "semantic-release",
-    "codecov"
+    "response",
+    "nestjs",
+    "nest"
   ],
   "bugs": {
-    "url": "https://github.com/ryansonshine/typescript-npm-package-template/issues"
+    "url": "https://github.com/bloodred17/tc-response-model/issues"
   },
-  "homepage": "https://github.com/ryansonshine/typescript-npm-package-template#readme",
+  "homepage": "https://github.com/bloodred17/tc-response-model#readme",
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
     "@ryansonshine/cz-conventional-changelog": "^3.3.4",
