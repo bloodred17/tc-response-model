@@ -1,6 +1,6 @@
 {
   "name": "tc-response-model",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Response model used in Track Cargo",
   "main": "./lib/index.js",
   "files": [
